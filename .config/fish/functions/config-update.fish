@@ -1,8 +1,11 @@
 function config-update
   if [ $argv = "fish" ]
-    set --function config_files ~/.config/fish/config.fish
-    set -a config_files ~/.config/fish/functions/*
-    set -a config_files  ~/.config/fish/conf.d/*
+    set --local fish_home  ~/.config/fish
+
+    set --function config_files $fish_home/config.fish
+    set -a config_files $fish_home/functions/*
+    set -a config_files  $fish_home/conf.d/*
+    set -a config_files  $fish_home/completions/*
   else if [ $argv = "brew" ]
     brew bundle dump --file=$HOME/Brewfile --force
     set --function config_files ~/Brewfile

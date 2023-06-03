@@ -1,0 +1,1 @@
+complete config-update -a "fish brew asdf __fish_complete_path STRING DESCRIPTION"
