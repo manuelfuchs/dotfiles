@@ -11,6 +11,6 @@ function config-update
   end
 
   config add $config_files
-  config commit -m "Update $config_files"
+  config commit -m "Update $argv"
   config push &> /dev/null
 end
