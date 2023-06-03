@@ -46,7 +46,6 @@ cask "stats"
 cask "synology-drive"
 cask "telegram"
 cask "ticktick"
-cask "utm"
 cask "visual-studio-code"
 mas "Irvue", id: 1039633667
 mas "Keynote", id: 409183694
