@@ -54,6 +54,7 @@ mas "Numbers", id: 409203825
 mas "Pages", id: 409201541
 mas "Spark", id: 1176895641
 vscode "Angular.ng-template"
+vscode "bmalehorn.vscode-fish"
 vscode "bradlc.vscode-tailwindcss"
 vscode "chrisbibby.hide-node-modules"
 vscode "csstools.postcss"
